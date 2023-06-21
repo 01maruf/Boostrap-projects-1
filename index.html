@@ -9,13 +9,17 @@
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
-<nav class="navbar  navbar-expand-lg bg-warning">
+<nav class="navbar sticky-top  navbar-expand-lg bg-warning">
   <div class="container-fluid">
-    <a class="navbar-brand text-danger" href="#">BT SHOP</a>
+    <a class="navbar-brand fs-3 text-danger" href="#">BT SHOP</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <form class="d-flex ms-5" role="search">
+      <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-danger" type="submit">Search</button>
+    </form>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
         <li class="nav-item">
@@ -42,13 +46,39 @@
         </li>
         
       </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-danger" type="submit">Search</button>
-      </form>
+     
     </div>
   </div>
 </nav>
+<header>
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000">
+        <img src="New folder/photo-1513104890138-7c749659a591.avif" class="d-block vh-100 img-fluid w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="image/p5.webp" class="d-block vh-100 img-fluid  w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="New folder/photo-1552346154-21d32810aba3.avif" class="d-block vh-100 img-fluid  w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="New folder/photo-1508296695146-257a814070b4.avif" class="d-block vh-100 img-fluid  w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="New folder/photo-1502471735958-b502f65c9f2d.avif" class="d-block vh-100 img-fluid  w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</header>
 
 
 
